@@ -57,7 +57,7 @@ a:hover {
 }
 
 
-/* main body */
+/* main sections */
 
 
 main {
@@ -67,7 +67,7 @@ main {
 }
 
 
-/* main body: mission */
+/* main section: mission */
 
 
 .mission {
@@ -100,7 +100,7 @@ main {
 }
 
 
-/* main body: featured */
+/* main section: featured */
 
 
 .featured {
@@ -126,4 +126,35 @@ main {
   height: 200px;
   width: 300px;
   margin: 15px;
+}
+
+
+/* main section: locations */
+
+
+.locations {
+  background-image: url('../images/img-locations-background.jpg');
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  justify-content: center;
+  width: 1200px;
+}
+
+
+.locations-container {
+  display: flex;
+  justify-content: center;
+}
+
+
+.locations-container section {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: space-around;
+  margin: 15px 20px;
+  opacity: 1;
+  width: 300px;
 }
