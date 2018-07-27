@@ -1,4 +1,5 @@
-/* reset style */
+/* universal selectors */
+
 
 * {
   box-sizing: border-box;
@@ -13,4 +14,35 @@ body {
   font: 22px Helvetica;
   opacity: 0.9;
   text-align: center;
+}
+
+
+/* header */
+
+
+header {
+  align-items: center;
+  display: flex;
+  justify-content:  flex-start;
+}
+
+
+li {
+  display: inline;
+}
+
+
+nav {
+  margin-left: auto;
+}
+
+
+a:visited {
+  color: seashell;
+}
+
+
+a:active,
+a:hover {
+  color: #d0baa8;
 }
