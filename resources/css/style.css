@@ -22,18 +22,27 @@ body {
 
 header {
   align-items: center;
+  border-bottom: 1px solid seashell;
   display: flex;
-  justify-content:  flex-start;
+  height: 69px;
+  justify-content: space-between;
+}
+
+
+.logo {
+  height: 50px;
+  margin-left: 10px;
 }
 
 
 li {
   display: inline;
+  margin: 0 10px;
 }
 
 
-nav {
-  margin-left: auto;
+a {
+  text-decoration: underline;
 }
 
 
@@ -46,3 +55,48 @@ a:active,
 a:hover {
   color: #d0baa8;
 }
+
+
+/* main body */
+
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/* main body: mission */
+
+
+.mission {
+  background-image: url('../images/img-mission-background.jpg');
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  justify-content: center;
+  width: 1200px;
+}
+
+
+.mission-container {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  justify-content: space-between;
+}
+
+
+.mission-container h2 {
+  margin-top: 10px;
+}
+
+
+.mission-container h4 {
+  margin-bottom: 10px;
+}
+
+
+/* main body: featured */
