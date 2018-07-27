@@ -76,6 +76,7 @@ main {
   flex-direction: column;
   height: 700px;
   justify-content: center;
+  margin-bottom: 60px;
   width: 1200px;
 }
 
@@ -100,3 +101,29 @@ main {
 
 
 /* main body: featured */
+
+
+.featured {
+  width: 1000px;
+  margin-bottom: 60px;
+}
+
+
+.featured h2,
+.featured h4 {
+  margin: 20px 0;
+}
+
+
+.featured-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.featured-container img {
+  height: 200px;
+  width: 300px;
+  margin: 15px;
+}
