@@ -77,7 +77,7 @@ main {
 /* main section: mission */
 
 
-.mission {
+#mission {
   background-image: url('../images/img-mission-background.jpg');
   display: flex;
   flex-direction: column;
@@ -100,14 +100,14 @@ main {
 /* main section: featured */
 
 
-.featured {
+#featured {
   width: 1000px;
   margin-bottom: 60px;
 }
 
 
-.featured h2,
-.featured h4 {
+#featured h2,
+#featured h4 {
   margin: 20px 0;
 }
 
@@ -129,7 +129,7 @@ main {
 /* main section: locations */
 
 
-.locations {
+#locations {
   background-image: url('../images/img-locations-background.jpg');
   display: flex;
   flex-direction: column;
