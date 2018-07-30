@@ -17,30 +17,6 @@ body {
 }
 
 
-/* header */
-
-
-header {
-  align-items: center;
-  border-bottom: 1px solid seashell;
-  display: flex;
-  height: 69px;
-  justify-content: space-between;
-}
-
-
-.logo {
-  height: 50px;
-  margin-left: 10px;
-}
-
-
-li {
-  display: inline;
-  margin: 0 10px;
-}
-
-
 a {
   text-decoration: underline;
 }
@@ -58,13 +34,43 @@ a:hover {
 }
 
 
+/* header */
+
+
+header {
+  align-items: center;
+  background-color: inherit;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  height: 69px;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+
+.logo {
+  height: 50px;
+  margin-left: 10px;
+}
+
+
+li {
+  display: inline;
+  margin: 0 10px;
+}
+
+
 /* main sections */
 
 
 main {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  position: relative;
+  top: 69px;
 }
 
 
@@ -164,6 +170,6 @@ footer section:first-of-type {
 
 
 footer section:last-of-type {
-  margin-left: 20px;
+  margin: 20px;
   text-align: left;
 }
