@@ -34,6 +34,12 @@ a:hover {
 }
 
 
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+
 /* header */
 
 
@@ -67,8 +73,6 @@ li {
 
 main {
   align-items: center;
-  display: flex;
-  flex-direction: column;
   position: relative;
   top: 69px;
 }
@@ -79,8 +83,6 @@ main {
 
 #mission {
   background-image: url('../images/img-mission-background.jpg');
-  display: flex;
-  flex-direction: column;
   height: 700px;
   justify-content: center;
   margin-bottom: 60px;
@@ -90,8 +92,6 @@ main {
 
 .mission-container {
   background-color: black;
-  display: flex;
-  flex-direction: column;
   height: 100px;
   justify-content: space-around;
 }
@@ -131,8 +131,6 @@ main {
 
 #locations {
   background-image: url('../images/img-locations-background.jpg');
-  display: flex;
-  flex-direction: column;
   height: 500px;
   justify-content: center;
   width: 1200px;
@@ -147,8 +145,6 @@ main {
 
 .locations-container section {
   background-color: black;
-  display: flex;
-  flex-direction: column;
   height: 300px;
   justify-content: space-around;
   margin: 15px 20px;
@@ -161,8 +157,6 @@ main {
 
 
 footer section:first-of-type {
-  display: flex;
-  flex-direction: column;
   height: 200px;
   justify-content: space-around;
   margin-bottom: 40px;
